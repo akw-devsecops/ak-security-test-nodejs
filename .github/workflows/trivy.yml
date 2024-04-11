@@ -18,7 +18,7 @@ jobs:
           scan-type: 'fs'
           scan-ref: ak-security-test-nodejs/
           ignore-unfixed: false
-          format: 'table'
+          format: 'sarif'
           output: 'trivy-results.sarif'
           severity: 'HIGH'
 
